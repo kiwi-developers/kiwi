@@ -1,0 +1,32 @@
+[Global]
+
+# listen interface or listen ip address of kiwi manager 
+# type: string
+# default: 0.0.0.0
+# e.g. ip address: 192.168.1.1 
+# e.g. eth0
+#
+listen = "0.0.0.0"
+
+
+# listen port of kiwi manager 
+# type: int
+# default: 8292
+# e.g. 8292
+#
+port = 8292
+
+# log level in this list
+# trace
+# debug
+# info
+# warn ( or warning )
+# error
+# fatal
+# panic
+#
+# type: string
+# default: debug
+# e.g. 3
+#
+logLevel = "trace"
